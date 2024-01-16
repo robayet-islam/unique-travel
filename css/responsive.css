@@ -1,0 +1,112 @@
+@media only screen and (max-width:600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .banner-iput-filed {
+        flex-direction: column;
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-text .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-greadient {
+        padding: 50px 20px;
+    }
+    .banner-iput-filed{
+        padding: 20PX;
+    }
+    .banner-iput-filed button,
+    .banner-iput-filed input,
+    .banner-iput-filed select {
+        width: 100%;
+    }
+
+    /* our populer part */
+    .Popular-Tours {
+        margin-top: 40px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    /* Destinationp part */
+    .destination-description {
+        max-width: 100%;
+    }
+
+    .Destination-container {
+        gap: 10px;
+    }
+    .row-1,
+    .row-2,
+    .row-3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .row-1 > div >img,
+    .row-2 > div >img,
+    .row-3 > div >img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    /* A Simple Perfect Place To Get Lost Part start */
+    .perfect-place-you-lost {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box-1,
+    .box-2,
+    .box-3 {
+        width: 100% !important;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    .why-choose-content-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* our sevises */
+    .Our-servises ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Newest part */
+    .Newsletter {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Newsletter-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .Newsletter-img img{
+        width: 100%;
+        top: -130px;
+    }
+    .absulatee{
+        width: 200px !important;
+        top: 70px;
+    }
+    /* footer part */
+
+    .footer-description {
+        width: 100%;
+    }
+    
+}

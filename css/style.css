@@ -1,0 +1,522 @@
+/* ------- Google Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ========================Header Part Start================== */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.Header .header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo .logo-icon {
+    width: 48px;
+}
+
+.header-logo .Header-logo-text {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.header-logo .Header-logo-text .travels {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.Header .header-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 90px;
+    gap: 44px;
+}
+
+.header-menu ul li {
+    list-style: none;
+}
+
+.header-menu ul li a {
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-menu ul li a:hover {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.fa-bars {
+    display: none;
+}
+
+/* ====================Banner Part Start================== */
+.banner_content {
+    max-width: 100%;
+    background: url("../Images/Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.banner-greadient {
+    padding: 105px 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.banner-text .banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-text .banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    max-width: 676px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banner-iput-filed {
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    flex-wrap: wrap;
+}
+
+.banner-iput-filed input,
+.banner-iput-filed select {
+    padding: 16px;
+    width: 175px;
+    border-radius: 10px;
+    border: none;
+}
+
+.banner-iput-filed button {
+    padding: 16px;
+    width: 178PX;
+    border-radius: 10px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+}
+
+/* ====================Our Popular Tour Part================ */
+.Popular-Tours {
+    display: flex;
+    margin-top: 100px;
+    gap: 53px;
+}
+
+.populer-content .populer-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.populer-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    margin-top: 24px;
+}
+
+.populer-content ul li {
+    margin-left: 15px;
+}
+
+.populer-btn {
+    margin-top: 48px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 52px;
+    border: none;
+}
+
+.populer-btn a {
+    color: #FFF;
+}
+
+.populer-tour-img img {
+    width: 100%;
+}
+
+/* <!--=================Destination part Start================== --> */
+.Destination {
+    margin-top: 100px;
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.destination-description {
+    width: 643px;
+
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    margin-top: 24px;
+
+}
+
+.Destination-container {
+    display: grid;
+    gap: 24px;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 24px;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 24px;
+}
+
+/* ==============Why choose us============== */
+.why-choose-content {
+    margin: 100px 0;
+}
+
+.why-choose-content-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 24px;
+}
+
+.box-1 {
+
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.box-1 img {
+    width: 64px;
+    height: 64px;
+}
+
+.box-1 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.box-1 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    margin-top: 16px;
+
+}
+
+.box-2 {
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.box-2 img {
+    width: 64px;
+    height: 64px;
+}
+
+.box-2 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.box-2 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    margin-top: 16px;
+
+}
+
+.box-3 {
+    width: 572px;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 24px;
+}
+
+.box-3 img {
+    width: 64px;
+    height: 64px;
+}
+
+.box-3 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.box-3 p {
+    margin-top: 16px;
+    color: #5A5A5D;
+    font-family: Mulish;
+
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 570px !important;
+    padding: 30px;
+}
+.why-choose-content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* ================A Simple Perfect Place To Get Loststart================ */
+.perfect-place-you-lost {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.Perfect-place-content h3 {
+    width: 448px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Perfect-place-content p {
+    max-width: 532px;
+    margin-top: 24px;
+    color: #5A5A5D;
+    font-family: Mulish;
+}
+
+.Perfect-place-content ul {
+    margin-top: 24px;
+}
+
+.Perfect-place-content ul li {
+    max-width: 518px;
+    color: #131318;
+    font-family: Mulish;
+    font-weight: 700;
+    margin: 20px;
+
+}
+
+/* ======================OurServises part================== */
+.destination-content {
+    margin: 100px 0px;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid black;
+    background: rgba(128, 128, 128, 0.178);
+}
+
+.Our-servises ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.Our-servises ul li {
+    list-style: none;
+}
+
+/* ===================Newsletter part start================ */
+.Newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.Newsletter-form {
+    padding: 40px;
+    width: auto;
+    border: 2px solid #FF5400;
+    border-radius: 16px;
+}
+
+.Newsletter-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.Newsletter-description {
+    margin-top: 1em;
+    width: 22em;
+    color: #5A5A5D;
+    font-family: Mulish;
+    margin-bottom: 30px;
+}
+
+.Newsletter-form input {
+    margin-top: 1em;
+    width: 25em;
+    padding: 20px 16px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.Newsletter-btn {
+    margin-top: 24px;
+    width: 26em;
+    padding: 20px 16px;
+    border: none;
+    border-radius: 10px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+}
+
+.Newsletter-img {
+    width: 100%;
+    height: 450px;
+    border-radius: 26em;
+
+}
+
+/* .Newsletter-img{
+    position: relative;
+ } */
+.absulatee {
+    position: relative;
+    top: -53%;
+    left: 48%;
+}
+
+/* ============Footer Part Start================ */
+#footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer .header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+
+.footer-description {
+    padding-top: 15px;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    margin: 0 auto;
+    margin-bottom: 33px;
+
+}
+
+.footer-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 24px;
+}
+
+hr {
+    margin: 50px;
+
+}
+
+.footer-copyright {
+    padding-bottom: 110px;
+    text-align: center;
+}
